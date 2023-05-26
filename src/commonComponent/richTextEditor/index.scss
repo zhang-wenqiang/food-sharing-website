@@ -1,0 +1,37 @@
+.my-braft-editor {
+  .bf-controlbar {
+    .control-item {
+      width: auto;
+    }
+    background-color: #d9d9d9;
+  }
+  .bf-content {
+    height: 704px;
+  }
+}
+
+.write-article-title-and-image {
+  .write-article-title {
+    height: 71px;
+    width: 724px;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 0%;
+  }
+  .write-article-image {
+    float: right;
+    margin-right: 318px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 65px;
+    height: 71px;
+    .ant-upload-select {
+      width: 65px !important;
+      height: 65px !important;
+    }
+    .ant-upload-list-item {
+      width: 65px !important;
+      height: 65px !important;
+    }
+  }
+}

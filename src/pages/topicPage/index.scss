@@ -1,0 +1,29 @@
+.topic {
+  width: 1130px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.backTop {
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+  width: 60px;
+  height: 70px;
+  inline-size: auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  font-size: 12px;
+}
+.topicLeft {
+  width: 300px;
+  float: left;
+  margin-top: 25px;
+  .ant-menu-item-only-child {
+    height: 53px;
+  }
+}
+.topicRight {
+  float: right;
+  width: 800px;
+  padding-top: 30px;
+}

@@ -1,0 +1,30 @@
+.setting-page {
+  margin-top: 30px;
+  margin-left: 400px;
+  margin-right: 400px;
+  .setting-page-left {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    .ant-menu{
+        width: 100% !important;
+        .ant-menu-item{
+            height: 60px !important;
+        }
+    }
+  }
+  .setting-page-right {
+    margin-left: 350px;
+    height: 100%;
+    width: 700px;
+    .setting-page-right-item {
+      border-bottom: 1px solid #969696;
+      padding: 30px 0px;
+    }
+  }
+  .setting-page-font-mark{
+    font-size: 20px;
+    color: #969696;
+    width: 150px;
+  }
+}

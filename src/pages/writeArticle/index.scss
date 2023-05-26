@@ -1,0 +1,109 @@
+.write-article-my-collected-works {
+  font-size: 15px;
+  padding: 9px 0;
+  color: #ec7259;
+  border: 1px solid rgba(236, 114, 89, 0.8);
+  border-radius: 20px;
+}
+.write-article-collected-works-font {
+  padding: 30px 18px 5px;
+  text-align: center;
+}
+.write-article-create-collected-works {
+  .ant-btn {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+  }
+}
+.write-article-collected-works-list {
+  .ant-menu {
+    background-color: #404040;
+    width: 100%;
+  }
+  .ant-menu-item {
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+    width: 100%;
+    height: 49px;
+    border-left: 5px solid #ec7259;
+    line-height: 49px;
+    font-size: 19px;
+    color: white;
+  }
+  .ant-menu-item-selected {
+    background-color: #666;
+  }
+  .ant-menu-item:hover {
+    background-color: #666;
+  }
+}
+.write-article-menu {
+  position: fixed;
+  bottom: 15px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 15px;
+  padding-left: 15px;
+  .ant-btn {
+    font-size: 18px;
+    color: white;
+  }
+}
+.write-article-collected-works-details {
+  line-height: 20px;
+  padding: 20px 0 20px 20px;
+  cursor: pointer;
+  color: #595959;
+  .write-article-collected-works-details-title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+.write-article-article-list {
+  .ant-menu-item {
+    border-radius: 0px;
+    margin: 0px;
+    padding: 16px 0px 0px 10px;
+    width: 100%;
+    height: 90px;
+    border-left: 5px solid #ec7259;
+    line-height: 49px;
+    font-size: 19px;
+    color: black;
+  }
+}
+.article-menu-dropdown {
+  display: none;
+}
+.article-menu-dropdown2 {
+  display: block;
+  width: 10px;
+  float: right;
+  margin: 18px;
+
+  
+}
+.anticon {
+  font-size: 18px !important;
+}
+.write-article-create-article {
+  .ant-btn {
+    text-align: left;
+    color: #696969;
+    font-size: 20px;
+    margin: 10px;
+  }
+}
+
+.write-article-add-collected-works-view {
+  padding: 10px;
+  .collected-works-view-title {
+    margin-bottom: 10px;
+    background-color: #595959 !important;
+    border: none;
+    color: #ccc;
+    height: 40px;
+  }
+}

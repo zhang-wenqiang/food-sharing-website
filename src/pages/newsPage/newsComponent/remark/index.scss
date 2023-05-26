@@ -1,0 +1,27 @@
+.news-page-remark-title {
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.news-page-remark-hr {
+  border: 1px solid #dcd7d7;
+}
+
+.news-page-remark-list {
+  height: 729px;
+  overflow: auto;
+  .news-page-remark-list-list {
+    .ant-list-item {
+      border-block-end: none !important;
+      margin-bottom: 10px;
+    }
+    .ant-list-item-meta-title {
+      font-size: 18px !important;
+      margin-block-end: 0px !important;
+    }
+  }
+}
+.news-page-remark-list::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,19 @@
+.myCollectionImage {
+  height: 130px;
+  width: 100%;
+  border-radius: 20px;
+  background-image: url("https://img2.baidu.com/it/u=4043606111,2187927958&fm=253&fmt=auto&app=138&f=JPEG?w=1344&h=350");
+  text-align: center;
+  margin-top: 25px;
+}
+.backTop {
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+  width: 60px;
+  height: 70px;
+  inline-size: auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  font-size: 12px;
+}

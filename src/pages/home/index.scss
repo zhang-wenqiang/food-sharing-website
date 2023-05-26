@@ -1,0 +1,26 @@
+.home {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.backTop {
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+  width: 60px;
+  height: 70px;
+  inline-size: auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  font-size: 12px;
+}
+.homeLeft {
+  float: left;
+  width: 700px;
+  padding-top: 20px;
+}
+.homeRight {
+  width: 280px;
+  float: right;
+  margin-right: 80px;
+}

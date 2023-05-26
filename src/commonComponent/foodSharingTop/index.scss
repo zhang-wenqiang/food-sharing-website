@@ -1,0 +1,85 @@
+.top {
+  height: 58px;
+  width: 100%;
+  border-bottom: 1px solid rgb(244, 238, 238);
+  position: absolute;
+  top: 0;
+  display: flex; /*设置为弹性盒子模型*/
+  flex-direction: row; /*在一行显示，从左到右*/
+}
+.public1 {
+  height: 58px;
+  margin-top: 9px;
+}
+.logoLink {
+  @extend .public1;
+  width: 20%;
+}
+.topMenu {
+  @extend .public1;
+  width: 25%;
+}
+.topSearch {
+  @extend .public1;
+  width: 25%;
+}
+.top-search {
+  margin-top: 5px;
+  margin-left: 100px;
+  width: 280px;
+  .ant-input {
+    height: 40px;
+    border-radius: 20px 0 0 20px;
+    background-color: #eee;
+  }
+  // .ant-input-affix-wrapper {
+  //   height: 40px !important;
+  //   border-radius: 20px 0 0 20px !important;
+  //   background-color: #eee !important;
+  // }
+  .ant-input-search-button {
+    height: 40px !important;
+    border-radius: 0 20px 20px 0 !important;
+    background-color: #eee !important;
+  }
+}
+
+.loginregister {
+  @extend .public1;
+  width: 20%;
+}
+.writeArticle {
+  @extend .public1;
+  width: 10%;
+}
+.aaa {
+  background: url("https://img1.baidu.com/it/u=311122513,422222591&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500");
+  background-size: contain;
+  width: 100px;
+  position: absolute;
+  height: 58px;
+}
+.headImage {
+  height: 58px;
+  width: 20%;
+  .imageBlock:hover {
+    background-color: #d1cbcb;
+  }
+  .imageBlock {
+    height: 58px;
+    width: 100px;
+    margin-left: 80px;
+  }
+}
+
+.recent-search {
+  width: 230px;
+  margin: 0;
+  height: 40px;
+  font-size: 17px;
+  border-radius: 5px;
+  color: black;
+}
+.recent-search:hover {
+  background-color: #d1cbcb;
+}

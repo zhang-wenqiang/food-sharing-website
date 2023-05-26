@@ -1,0 +1,41 @@
+.attention {
+  width: 1100px;
+  margin: 0 auto;
+  
+}
+.backTop {
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+  width: 60px;
+  height: 70px;
+  inline-size: auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  font-size: 12px;
+}
+.attentionLeft {
+  width: 280px;
+  float: left;
+  margin-left: 20px;
+  .ant-menu {
+    margin-top: 0px !important;
+  }
+  .ant-menu-item {
+    height: 60px;
+  }
+}
+.attentionRight {
+  float: right;
+  width: 750px;
+  padding-top: 30px;
+  .attentionRight-h2 {
+    margin-left: 60px;
+  }
+  .attentionRight-Button1 {
+    margin-left: 180px;
+  }
+  .attentionRight-Button2 {
+    margin-left: 40px;
+  }
+}
